@@ -1,0 +1,75 @@
+#imginfocontainer * {
+  box-sizing: border-box;
+  font: 15px arial, sans-serif;
+}
+
+#imginfocontainer {
+  width: 450px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  box-shadow: 0px 0px 5px 1px #9b9b9b;
+  z-index: 2147483647;
+  background-color: #fff;
+}
+
+.containerHeading {
+  background-color: #4CAF50;
+  cursor: all-scroll;
+}
+
+.closecontainer {
+  width: 25px;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+
+#gotoicon {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+.extimglink {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+#extimglinkatag {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+#extimglinkatag:hover {
+  text-decoration: underline;
+}
+
+#extimglinkatag:visited {
+  text-decoration: rgb(19, 77, 21);
+}
+
+.containerHeading h3 {
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin: 0;
+  padding: 10px;
+}
+
+.infotable {
+  border-collapse: collapse;
+}
+
+.infotable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.infotable tr td {
+  padding: 8px;
+  line-height: 15px;
+  word-break: break-all;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+}
